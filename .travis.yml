@@ -9,8 +9,5 @@ before_script:
 - sudo apt-get install -y glide
 
 script:
-- glide get github.com/Masterminds/cookoo 
+- glide get github.com/tendermint/tendermint/cmd/tendermint
 - glide install
-- go build
-- glide up
-
