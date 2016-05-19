@@ -9,5 +9,5 @@ before_script:
 - sudo apt-get install -y glide
 
 script:
-- go get -t ./...
-- make test
+- glide install
+- make test_novendor
